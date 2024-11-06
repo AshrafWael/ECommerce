@@ -1,4 +1,5 @@
 ﻿using ECommerce.DAL.Data.Models;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -14,6 +15,15 @@ namespace ECommerce.DAL.Data.DBHelper
         public ECommerceContext(DbContextOptions<ECommerceContext> options)
             : base(options)
         { }
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            base.OnModelCreating(builder);
+
+            // Ensure email is unique
+            builder.Entity<IdentityUser>()
+                   .HasIndex(u => u.Email)
+                   .IsUnique();
+        }
         public DbSet<Product> Products { get; set; }
         public DbSet<Category> Categories { get; set; }
         public DbSet<CardItem> CardItems { get; set; }

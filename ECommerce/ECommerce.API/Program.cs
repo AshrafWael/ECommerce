@@ -16,6 +16,10 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using System.Text;
 using ECommerce.DAL.Data.Models;
 using ECommerce.BLL.Services.Application;
+using ECommerce.DAL.Reposatories.CategoryRepository;
+using ECommerce.DAL.Reposatories.CardItemRepository;
+using ECommerce.DAL.Reposatories.FavoriteItemRepository;
+using ECommerce.BLL.Services.CardItem;
 namespace ECommerce.API
 {
     public class Program
@@ -37,14 +41,29 @@ namespace ECommerce.API
 
             #region MappingProfiles
             builder.Services.AddAutoMapper(map => map.AddProfile(new ProductMapper()));
+            builder.Services.AddAutoMapper(map => map.AddProfile(new CategoryMapper()));
+            builder.Services.AddAutoMapper(map => map.AddProfile(new CartItemMapper()));
+            builder.Services.AddAutoMapper(map => map.AddProfile(new FavoriteItemMapper()));
+
+
+
             #endregion
             #region Services Regestration
-            builder.Services.AddScoped<IProductServices, ProductServices>();
             builder.Services.AddScoped<IAccountServices, AccountServices>();
+            builder.Services.AddScoped<IProductServices, ProductServices>();
+            builder.Services.AddScoped<ICarditemServices, CardItemServices>();
+
+
 
             #endregion
             #region Reposatories 
             builder.Services.AddScoped<IProductRepository, ProductRepository>();
+            builder.Services.AddScoped<ICategoryRepository,CategoryRepository>();
+            builder.Services.AddScoped<ICardItemRepository, CardItemRepository>();
+            builder.Services.AddScoped<IFavoriteItemRepository, FavoriteItemRepository>();
+
+
+
             #endregion
 
             //builder.Services.AddControllers(Option=>

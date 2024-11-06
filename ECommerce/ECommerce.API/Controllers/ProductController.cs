@@ -38,15 +38,11 @@ namespace ECommerce.API.Controllers
                 return BadRequest("Product cannot be null."); // 400 Bad Request
             }
 
-            try
-            {
+           
               _productServices.Add(productAddDto);
                 return Ok("Product Added Sucsfuly");
-            }
-            catch (DbUpdateException)
-            {
-                return Conflict("Unable to add product due to a conflict."); // 409 Conflict
-            }
+            
+            
 
         }
        

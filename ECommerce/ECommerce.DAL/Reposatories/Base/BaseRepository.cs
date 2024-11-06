@@ -39,16 +39,13 @@ namespace ECommerce.DAL.Reposatories.Base
         // Update an existing entity
         public void Update(T entity)
         {
-            /*
+            
             // Attach the entity to the context
             _context.Set<T>().Attach(entity);
-
             // Mark the entity as modified
             _context.Entry(entity).State = EntityState.Modified;
-            */
-
             // Save changes to the database
-            _context.Update(entity);
+          //  _context.Update(entity);
             _context.SaveChanges();
         }
 

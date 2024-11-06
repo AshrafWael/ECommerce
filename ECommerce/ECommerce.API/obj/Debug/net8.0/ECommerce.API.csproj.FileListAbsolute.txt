@@ -134,6 +134,7 @@ A:\C#_Projects\ECommerce\ECommerce.API\obj\Debug\net8.0\ECommerce.API.AssemblyIn
 A:\C#_Projects\ECommerce\ECommerce.API\obj\Debug\net8.0\ECommerce.API.csproj.CoreCompileInputs.cache
 A:\C#_Projects\ECommerce\ECommerce.API\obj\Debug\net8.0\ECommerce.API.MvcApplicationPartsAssemblyInfo.cs
 A:\C#_Projects\ECommerce\ECommerce.API\obj\Debug\net8.0\ECommerce.API.MvcApplicationPartsAssemblyInfo.cache
+A:\C#_Projects\ECommerce\ECommerce.API\obj\Debug\net8.0\ECommerce.API.sourcelink.json
 A:\C#_Projects\ECommerce\ECommerce.API\obj\Debug\net8.0\staticwebassets.build.json
 A:\C#_Projects\ECommerce\ECommerce.API\obj\Debug\net8.0\staticwebassets.development.json
 A:\C#_Projects\ECommerce\ECommerce.API\obj\Debug\net8.0\staticwebassets\msbuild.ECommerce.API.Microsoft.AspNetCore.StaticWebAssets.props

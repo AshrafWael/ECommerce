@@ -7,6 +7,7 @@ A:\C#_Projects\ECommerce\ECommerce.DAL\obj\Debug\net8.0\ECommerce.DAL.GeneratedM
 A:\C#_Projects\ECommerce\ECommerce.DAL\obj\Debug\net8.0\ECommerce.DAL.AssemblyInfoInputs.cache
 A:\C#_Projects\ECommerce\ECommerce.DAL\obj\Debug\net8.0\ECommerce.DAL.AssemblyInfo.cs
 A:\C#_Projects\ECommerce\ECommerce.DAL\obj\Debug\net8.0\ECommerce.DAL.csproj.CoreCompileInputs.cache
+A:\C#_Projects\ECommerce\ECommerce.DAL\obj\Debug\net8.0\ECommerce.DAL.sourcelink.json
 A:\C#_Projects\ECommerce\ECommerce.DAL\obj\Debug\net8.0\ECommerce.DAL.dll
 A:\C#_Projects\ECommerce\ECommerce.DAL\obj\Debug\net8.0\refint\ECommerce.DAL.dll
 A:\C#_Projects\ECommerce\ECommerce.DAL\obj\Debug\net8.0\ECommerce.DAL.pdb

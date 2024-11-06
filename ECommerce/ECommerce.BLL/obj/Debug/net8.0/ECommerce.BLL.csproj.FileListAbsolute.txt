@@ -8,6 +8,7 @@ A:\C#_Projects\ECommerce\ECommerce.BLL\obj\Debug\net8.0\ECommerce.BLL.GeneratedM
 A:\C#_Projects\ECommerce\ECommerce.BLL\obj\Debug\net8.0\ECommerce.BLL.AssemblyInfoInputs.cache
 A:\C#_Projects\ECommerce\ECommerce.BLL\obj\Debug\net8.0\ECommerce.BLL.AssemblyInfo.cs
 A:\C#_Projects\ECommerce\ECommerce.BLL\obj\Debug\net8.0\ECommerce.BLL.csproj.CoreCompileInputs.cache
+A:\C#_Projects\ECommerce\ECommerce.BLL\obj\Debug\net8.0\ECommerce.BLL.sourcelink.json
 A:\C#_Projects\ECommerce\ECommerce.BLL\obj\Debug\net8.0\ECommerc.A91174C8.Up2Date
 A:\C#_Projects\ECommerce\ECommerce.BLL\obj\Debug\net8.0\ECommerce.BLL.dll
 A:\C#_Projects\ECommerce\ECommerce.BLL\obj\Debug\net8.0\refint\ECommerce.BLL.dll

@@ -11,9 +11,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Dtos\CardItemDtos\" />
-    <Folder Include="Dtos\CategoryDtos\" />
-    <Folder Include="Dtos\FavoriteItemDtos\" />
     <Folder Include="Filters\" />
   </ItemGroup>
 

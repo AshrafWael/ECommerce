@@ -1,5 +1,6 @@
 ﻿
 using AutoMapper;
+using ECommerce.BLL.Dtos.CategoryDtos;
 using ECommerce.BLL.Dtos.ProductDtos;
 using ECommerce.DAL.Data.Models;
 using System;
@@ -16,7 +17,9 @@ namespace ECommerce.BLL.AutoMapper
         {
             CreateMap<Product,ProductReadDto>().ReverseMap();
             CreateMap<Product, ProductAddDto>().ReverseMap();
-            CreateMap<Product, ProductUpdateDto>().ReverseMap(); 
+            CreateMap<Product, ProductUpdateDto>().ReverseMap();
+            CreateMap<Product, CategorryProductsDto>().ReverseMap();
+
 
         }
     }
